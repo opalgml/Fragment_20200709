@@ -7,5 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <fragment
+        android:tag="firstFrag"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        class="kr.co.tjoeun.fragment_20200709.fragments.FirstFragment" />
 
+    <fragment
+        android:tag="secondTag"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        class="kr.co.tjoeun.fragment_20200709.fragments.SecondFragment" />
 </LinearLayout>
